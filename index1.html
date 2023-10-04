@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seputar JKT48</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+      body {
+        padding: 10px 15px;
+        font-family: "Poppins", sans-serif;
+      }
+       button ,a{
+        float: right;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        background-color:  red;
+        border: 0ch;
+        padding: 10px 15px;
+      }
+      .text {
+        width: 48%;
+        float: left;
+        font-size: 20px;
+      }
+      .gambar {
+        width: 50%;
+        float: right;
+      }
+      img {
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+      .card {
+        clear: both;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: center;
+      }
+
+      .kotak {
+        width: 23%;
+        margin: 30px 10px 0;
+        text-align: center;
+        background-color:  rgb(49, 3, 3);
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .kotak h5 {
+        font-size: 20px;
+        margin-right: 0 !important;
+        color: white;
+      }
+
+      .kotak p {
+        margin-bottom: 0 !important;
+        font-size: 16px;
+        color: white;
+      }
+
+      .form-container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin-top: 40px;
+      }
+
+      form {
+        display: grid;
+        gap: 10px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      input,
+      textarea {
+        width: 48%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      button:hover {
+        background-color: orangered;
+      }
+
+      .form-container .tombol{
+        align-items: center;
+      }
+
+      .image {
+        width: 40%;
+      }
+
+      .box-container {
+        display: flex;   
+      }
+      .box-container .box {
+        width: 30%;
+        border-radius: 5px;
+        box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        margin-top: 5rem;
+        transition: 0.3s;
+        padding: 20px;
+      }
+      .container {
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .content {
+        box-shadow: 8.5px 8.5px 7px 0 rgba(255, 255, 255, 0.786);
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #f0f0f0; 
+        width: 500px;
+        position: relative;
+	      border: 1px solid #ccc;
+        margin-right: 20px;
+      }
+
+      .hasil {
+	      box-shadow: 8.5px 8.5px 7px 0 rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        width: 800px;
+        position: relative;
+	      border: 1px solid #ccc;
+        margin-left: 20px;
+        font-size: 15px;
+       }
+
+      .image1 img {
+        max-width: 40%; /* Menghindari gambar melampaui lebar parent */
+	      border-radius: 10px;
+        /* margin-left: 200px; */
+       }
+
+      .cb1 {
+        color: #fff;
+       }
+
+       
+    </style>
+  </head>
+  <body>
+
+    <button>
+      <a href="#">Administrasi</a>
+    </button>
+    <div class="wrap">
+      <div class="text">
+        <h3>Welcome to the website about jkt48!</h3>
+        <ol>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+            expedita repellendus dolorum architecto eligendi odio quod commodi
+            impedit vel quae molestiae ex dicta aperiam accusamus recusandae
+            tenetur minima itaque placeat!
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt,
+            laborum!
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error,
+            illum maiores numquam magni dolores a.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+            fuga aut odit. Tenetur cum atque, eos eligendi, possimus magnam
+            sapiente ipsam laudantium ullam repudiandae voluptate?
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt,
+            laborum!
+          </li>
+        </ol>
+      </div>
+
+      <div class="gambar">
+        <img src="img/JKT48.jpg" alt="" />
+      </div>
+
+      <div class="card">
+        <div class="kotak">
+          <h5>AshelJKT48</h5>
+          <img src="img/ashel jkt48.jpeg" alt="">
+          <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quam autem illum pariatur numquam cumque accusantium deleniti natus, ipsa ab unde consectetur, non minus perferendis enim, cum distinctio? Porro, earum.</b></p>
+        </div>
+      
+        <div class="kotak">
+          <h5>ShaniJKT48</h5>
+          <img src="img/shani jkt48.jpeg" alt="">
+          <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quam autem illum pariatur numquam cumque accusantium deleniti natus, ipsa ab unde consectetur, non minus perferendis enim, cum distinctio? Porro, earum.</b></p>
+        </div>
+
+        <div class="kotak">
+          <h5>IndiraJKT48</h5>
+          <img src="img/Indira JKT48.jpeg" alt="">
+          <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quam autem illum pariatur numquam cumque accusantium deleniti natus, ipsa ab unde consectetur, non minus perferendis enim, cum distinctio? Porro, earum.</b></p>
+        </div>
+
+        <div class="kotak">
+          <h5>MutheJKT48</h5>
+          <img src="img/muthe jkt48.jpeg" alt="">
+          <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quam autem illum pariatur numquam cumque accusantium deleniti natus, ipsa ab unde consectetur, non minus perferendis enim, cum distinctio? Porro, earum.</b></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="content">
+                <form method="post" action="result.php">
+                <h1>Daftar Gen 12 :</h1>
+                    <label for="jam">Name : </label>
+                    <input type="text" id="jam" name="jam"  required><br>
+                    <label for="menit">Email :</label>
+                    <input type="mail" id="menit" name="menit" required><br>
+                    <label for="detik">No Telp :</label>
+                    <input type="number" id="detik" name="detik" required><br>
+                    <label for="detik">Message :</label>
+                    <input  style="height: 70px;" type="textarea" id="detik" name="detik" required><br>
+                    <label for="detik">Foto Peserta:</label>
+                    <input  style="background-color: #fff;" type="file" id="detik" name="detik" required><br><br>
+                    <button class="cb1" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="hasil">
+            <h1>Seputar Jkt48</h1>
+                <div class="context">
+                  <h4>Pengumuman Mengenai Launching Aplikasi Baru JKT48 Private Message</h4>
+                    <p>Berkat dukungan semuanya, layanan JKT48 Private Message dikenal dan digunakan oleh banyak orang. Melihat antusiasme yang begitu besar, kini JKT48 Private Message akan hadir sebagai aplikasi mandiri dan mendapatkan fitur baru yang menarik!</p>
+                </div>
+                <div class="image1">
+                    <img src="img/privt.png" alt="">
+                </div>
+                <div class="context">
+                  <h4>Pengumuman Mengenai Audisi JKT48 Generasi Ke-12</h4>
+                    <p>
+                      Seperti yang telah diumumkan pada pertunjukan setlist Aitakatta - Ingin Bertemu pada tanggal 20 Agustus 2023 lalu, JKT48 akan membuka pendaftaran untuk audisi generasi ke-12. Audisi ini terbuka bagi seluruh gadis remaja yang siap berjuang untuk meraih mimpi menjadi seorang Idol.
+                <div class="image1">
+                    <img src="img/Screenshot (532).png" alt="">
+                </div>
+            </div>
+        </div>
+  </body>
+</html>
